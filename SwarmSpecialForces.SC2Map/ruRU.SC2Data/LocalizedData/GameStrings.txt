@@ -2,130 +2,130 @@ Behavior/Name/AcidPit@Debuff=Отрицательный эффект
 Behavior/Name/BaseAura=Безопасная зона
 Behavior/Name/BaseOverlordDmgSlow=Оглушён
 Behavior/Name/CoronaWaves=Коронавирус
-Behavior/Name/CorrosiveSpikes@Dot=Разъедает кислота
+Behavior/Name/CorrosiveSpikes@Dot=В едкой кислоте
 Behavior/Name/DefensiveRoar@Caster=Оглушительный рёв
-Behavior/Name/Difficulty0=Новичок
-Behavior/Name/Difficulty1=Боец
-Behavior/Name/Difficulty2=Ветеран
-Behavior/Name/Difficulty3=Эксперт
-Behavior/Name/Difficulty4=Безумец
-Behavior/Name/Difficulty5=Кошмар
-Behavior/Name/DifficultyCustom=Нестандартная сложность
-Behavior/Name/Frenzy@Frenzied=Остервенелый
-Behavior/Name/GlueSprayBuff=Промасленный
-Behavior/Name/GlueSprayDebuff=Прилипший
-Behavior/Name/GlueSprayDebuffBoss=Прилипший
-Behavior/Name/GlueStream@Buff=Прилипший
+Behavior/Name/Difficulty0=Лёгкий
+Behavior/Name/Difficulty1=Обычный
+Behavior/Name/Difficulty2=Тяжёлый
+Behavior/Name/Difficulty3=Брутальный
+Behavior/Name/Difficulty4=Безумный
+Behavior/Name/Difficulty5=Хардкорный
+Behavior/Name/DifficultyCustom=Своя сложность
+Behavior/Name/Frenzy@Frenzied=В ярости
+Behavior/Name/GlueSprayBuff=В масле
+Behavior/Name/GlueSprayDebuff=Прилип
+Behavior/Name/GlueSprayDebuffBoss=Прилип
+Behavior/Name/GlueStream@Buff=Прилип
 Behavior/Name/HardenedShell=Усиленный панцирь
-Behavior/Name/Headbutt@Slow=Медленно(?)
-Behavior/Name/Headbutt@Stun=Оглушён(?)
-Behavior/Name/Heal@HoT=Лечить(?)
+Behavior/Name/Headbutt@Slow=Замедлен
+Behavior/Name/Headbutt@Stun=Оглушён
+Behavior/Name/Heal@HoT=Лечится со временем
 Behavior/Name/HeroBowlerAttribute=Характеристики
 Behavior/Name/HeroHydraAttribute=Характеристики
 Behavior/Name/HeroRavagerAttribute=Характеристики
 Behavior/Name/HeroRoachAttribute=Характеристики
 Behavior/Name/HeroSwarmQueenAttribute=Характеристики
-Behavior/Name/Infection@Infected=Заражённый(?)
-Behavior/Name/InvulnerableOverSpawnLimit=Неуязвимый
-Behavior/Name/LarvaSpawnOnDeath=ЛичинкаПорождаетсяПослеСмерти (?)
+Behavior/Name/Infection@Infected=Заражён
+Behavior/Name/InvulnerableOverSpawnLimit=Неуязвим
+Behavior/Name/LarvaSpawnOnDeath=ЛичинкаПорождаетсяПослеСмерти(?)
 Behavior/Name/Levels=Уровни
 Behavior/Name/RespawnEgg@HiveAura=Безопасная зона
 Behavior/Name/ScientistStunned=Оглушён
 Behavior/Name/Shocked=Ошеломлён
-Behavior/Name/Silenced=Безмолвный
+Behavior/Name/Silenced=Безмолвен
 Behavior/Name/Tackle@FriendlyTackle=Дружески поборолся(?)
-Behavior/Name/Taunt@Taunted=Взятый на слабо(?)
+Behavior/Name/Taunt@Taunted=Спровоцирован
 Behavior/Name/UltimateBeing@UltimateBuff=Безгранично хороший эффект(?)
-Behavior/Name/WatchYourStep@TrapStun=Пойман
-Behavior/Tooltip/AcidPit@Debuff=Получен урон от усиленного оружия.
-Behavior/Tooltip/BaseAura=Когда вы находитесь в безопасной зоне базы, вы получаете:<n/>+<d ref="Behavior,BaseAura,DamageResponse.ModifyFraction-1*(-100)" precision="2"/>% уменьшения урона<n/>+<d ref="Behavior,BaseAura,Modification.VitalRegenArray[Life]" precision="2"/> регенерация здоровья<n/>+<d ref="Behavior,BaseAura,Modification.VitalRegenArray[Energy]" precision="2"/> регенерация энергии<n/>+<d ref="Behavior,BaseAura,Modification.DamageDealtScaled[Ranged]" precision="2"/> урон<n/>+<d ref="Behavior,BaseAura,Modification.AttackSpeedMultiplier-1*100" precision="5"/>% скорость атаки<n/>+<d ref="Behavior,BaseAura,Modification.TimeScale-1*100" precision="2"/>% временная шкала(?)<n/>[Upgradeable with achievements]
-Behavior/Tooltip/BaseAura2=Когда вы находитесь в безопасной зоне улья, враги будут замедленны на <d ref="Behavior,BaseAura2,Modification.AttackSpeedMultiplier-1*(-100)"/>% и их атака будет уменьшена на <d ref="Behavior,BaseAura2,Modification.DamageDealtFraction[Melee]*(-100)" precision="2"/>%. К тому же они будут терять <d ref="Effect,BaseAuraPassiveDmg,Amount/Behavior,BaseBuffInitial,Period" precision="3"/> жизни за секунду.
-Behavior/Tooltip/BaseOverlordDmgSlow=Надзиратель был атакован и должен сосредоточиться на исцелении себя. Он не может двигаться, пока его не перестанут атаковать.
-Behavior/Tooltip/CoronaWaves=Я слышал соблюдение социальной дистанции помогает!
-Behavior/Tooltip/CorrosiveSpikes@Dot=Этот воин получает урон со временем.
+Behavior/Name/WatchYourStep@TrapStun=Оглушён ловушкой
+Behavior/Tooltip/AcidPit@Debuff=Получает увеличенный урон от оружия.
+Behavior/Tooltip/BaseAura=В безопасной зоне вы получаете:<n/>+<d ref="Behavior,BaseAura,DamageResponse.ModifyFraction-1*(-100)" precision="2"/>% уменьшения получаемого урона<n/>+<d ref="Behavior,BaseAura,Modification.VitalRegenArray[Life]" precision="2"/> регенерации здоровья<n/>+<d ref="Behavior,BaseAura,Modification.VitalRegenArray[Energy]" precision="2"/> регенерации энергии<n/>+<d ref="Behavior,BaseAura,Modification.DamageDealtScaled[Ranged]" precision="2"/> наносимого урона<n/>+<d ref="Behavior,BaseAura,Modification.AttackSpeedMultiplier-1*100" precision="5"/>% скорости атаки<n/>+<d ref="Behavior,BaseAura,Modification.TimeScale-1*100" precision="2"/>% ускорения перезарядки умений(?)<n/>[Улучшается с достижениями]
+Behavior/Tooltip/BaseAura2=В безопасной зоне враги замедленны на <d ref="Behavior,BaseAura2,Modification.AttackSpeedMultiplier-1*(-100)"/>%, и их наносимый урон будет уменьшен на <d ref="Behavior,BaseAura2,Modification.DamageDealtFraction[Melee]*(-100)" precision="2"/>%. К тому же, они будут терять <d ref="Effect,BaseAuraPassiveDmg,Amount/Behavior,BaseBuffInitial,Period" precision="3"/> жизней за секунду.
+Behavior/Tooltip/BaseOverlordDmgSlow=Надзиратель был атакован и должен сосредоточиться на самоисцелении. Он не сможет двигаться, пока его не перестанут атаковать.
+Behavior/Tooltip/CoronaWaves=Я слышал, помогает соблюдение социальной дистанции!
+Behavior/Tooltip/CorrosiveSpikes@Dot=Получает урон со временем.
 Behavior/Tooltip/DefensiveRoar@Caster=Броня увеличена.
-Behavior/Tooltip/Difficulty0=<d ref="Behavior,Difficulty0,Modification.DamageDealtFraction[Melee]*(100)" precision="2"/>% урона<n/><d ref="Behavior,Difficulty0,Modification.AttackSpeedMultiplier-1*(100)"/>% скорости атаки<n/><d ref="Behavior,Difficulty0,Modification.VitalMaxFractionArray[Life]*(100)" precision="2"/>% жизни и щитов(?)<n/><d ref="Behavior,Difficulty0,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/Difficulty0Hive=У улья есть <d ref="Behavior,Difficulty0Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty0Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
-Behavior/Tooltip/Difficulty1=100% характеристик на всё(?)
-Behavior/Tooltip/Difficulty1Hive=У улья есть <d ref="Behavior,Difficulty1Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty1Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
-Behavior/Tooltip/Difficulty2=+<d ref="Behavior,Difficulty2,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от оружия<n/>+<d ref="Behavior,Difficulty2,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей<n/>+<d ref="Behavior,Difficulty2,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорость атаки<n/>+<d ref="Behavior,Difficulty2,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов<n/>+<d ref="Behavior,Difficulty2,Modification.MoveSpeedMultiplier-1*100"/>% скорость передвижения</n>+<d ref="Behavior,Difficulty2,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/Difficulty2Hive=У улья есть <d ref="Behavior,Difficulty2Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty2Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
-Behavior/Tooltip/Difficulty3=+<d ref="Behavior,Difficulty3,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от оружия<n/>+<d ref="Behavior,Difficulty3,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способности<n/>+<d ref="Behavior,Difficulty3,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки<n/>+<d ref="Behavior,Difficulty3,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов<n/>+<d ref="Behavior,Difficulty3,Modification.MoveSpeedMultiplier-1*100"/>% скорость передвижения</n>+<d ref="Behavior,Difficulty3,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/Difficulty3Hive=У улья есть <d ref="Behavior,Difficulty3Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty3Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
-Behavior/Tooltip/Difficulty4=+<d ref="Behavior,Difficulty4,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от оружия<n/>+<d ref="Behavior,Difficulty4,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей<n/>+<d ref="Behavior,Difficulty4,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки<n/>+<d ref="Behavior,Difficulty4,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов<n/>+<d ref="Behavior,Difficulty4,Modification.VitalRegenMultiplier[Life]*100"/>% регенерации здоровья(?)<n/>+<d ref="Behavior,Difficulty4,Modification.MoveSpeedMultiplier-1*100"/>% скорости перемещения</n>+<d ref="Behavior,Difficulty4,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/Difficulty4Hive=У улья есть <d ref="Behavior,Difficulty4Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty4Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
-Behavior/Tooltip/Difficulty5=+<d ref="Behavior,Difficulty5,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от оружия<n/>+<d ref="Behavior,Difficulty5,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей<n/>+<d ref="Behavior,Difficulty5,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки<n/>+<d ref="Behavior,Difficulty5,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов<n/><d ref="Behavior,Difficulty5,DamageResponse.ModifyFraction*100" precision="2"/>% уменьшения урона<n/>+<d ref="Behavior,Difficulty5,Modification.VitalRegenMultiplier[Life]*100"/>% регенерация здоровья<n/>+<d ref="Behavior,Difficulty5,Modification.MoveSpeedMultiplier-1*100"/>% скорости передвижения</n>+<d ref="Behavior,Difficulty5,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/Difficulty5Hive=У улья есть <d ref="Behavior,Difficulty5Hive,Modification.LifeArmorBonus"/> броня и <d ref="Behavior,Difficulty5Hive,Modification.VitalRegenArray[Life]"/> регенерация здоровья.
-Behavior/Tooltip/DifficultyCustom=+<d ref="Behavior,DifficultyCustom,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урон от оружия<n/>+<d ref="Behavior,DifficultyCustom,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урон от способности<n/>+<d ref="Behavior,DifficultyCustom,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки<n/>+<d ref="Behavior,DifficultyCustom,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов</n><d ref="Behavior,Difficulty5,DamageResponse.ModifyFraction*100" precision="2"/>% уменьшения урона<n/>+<d ref="Behavior,DifficultyCustom,Modification.VitalRegenMultiplier[Life]*100"/>% регенерации здоровья<n/>+<d ref="Behavior,DifficultyCustom,Modification.MoveSpeedMultiplier-1*100"/>% скорость передвижения</n>+<d ref="Behavior,DifficultyCustom,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
-Behavior/Tooltip/DifficultyCustomHive=У улья есть <d ref="Behavior,DifficultyCustom2,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,DifficultyCustom2,Modification.VitalRegenArray[Life]"/> регенерации здоровья.
+Behavior/Tooltip/Difficulty0=<d ref="Behavior,Difficulty0,Modification.DamageDealtFraction[Melee]*(100)" precision="2"/>% урона от автоатак противников<n/><d ref="Behavior,Difficulty0,Modification.AttackSpeedMultiplier-1*(100)"/>% скорости атаки противников<n/><d ref="Behavior,Difficulty0,Modification.VitalMaxFractionArray[Life]*(100)" precision="2"/>% жизни и щитов противников<n/><d ref="Behavior,Difficulty0,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони боссов
+Behavior/Tooltip/Difficulty0Hive=<d ref="Behavior,Difficulty0Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty0Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
+Behavior/Tooltip/Difficulty1=100% всех характеристик
+Behavior/Tooltip/Difficulty1Hive=<d ref="Behavior,Difficulty1Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty1Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
+Behavior/Tooltip/Difficulty2=+<d ref="Behavior,Difficulty2,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от автоатак противников<n/>+<d ref="Behavior,Difficulty2,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей противников<n/>+<d ref="Behavior,Difficulty2,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки противников<n/>+<d ref="Behavior,Difficulty2,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов противников<n/>+<d ref="Behavior,Difficulty2,Modification.MoveSpeedMultiplier-1*100"/>% скорости передвижения противников</n>+<d ref="Behavior,Difficulty2,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони боссов
+Behavior/Tooltip/Difficulty2Hive=<d ref="Behavior,Difficulty2Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty2Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
+Behavior/Tooltip/Difficulty3=+<d ref="Behavior,Difficulty3,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от автоатак противников<n/>+<d ref="Behavior,Difficulty3,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей противников<n/>+<d ref="Behavior,Difficulty3,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки противников<n/>+<d ref="Behavior,Difficulty3,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов противников<n/>+<d ref="Behavior,Difficulty3,Modification.MoveSpeedMultiplier-1*100"/>% скорости передвижения противников</n>+<d ref="Behavior,Difficulty3,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони боссов
+Behavior/Tooltip/Difficulty3Hive=<d ref="Behavior,Difficulty3Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty3Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
+Behavior/Tooltip/Difficulty4=+<d ref="Behavior,Difficulty4,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от автоатак противников<n/>+<d ref="Behavior,Difficulty4,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей противников<n/>+<d ref="Behavior,Difficulty4,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки противников<n/>+<d ref="Behavior,Difficulty4,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов противников<n/>+<d ref="Behavior,Difficulty4,Modification.VitalRegenMultiplier[Life]*100"/>% регенерации здоровья противников<n/>+<d ref="Behavior,Difficulty4,Modification.MoveSpeedMultiplier-1*100"/>% скорости перемещения противников</n>+<d ref="Behavior,Difficulty4,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони боссов
+Behavior/Tooltip/Difficulty4Hive=<d ref="Behavior,Difficulty4Hive,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,Difficulty4Hive,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
+Behavior/Tooltip/Difficulty5=+<d ref="Behavior,Difficulty5,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от автоатак противников<n/>+<d ref="Behavior,Difficulty5,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей противников<n/>+<d ref="Behavior,Difficulty5,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки противников<n/>+<d ref="Behavior,Difficulty5,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов противников<n/><d ref="Behavior,Difficulty5,DamageResponse.ModifyFraction*100" precision="2"/>% наносимого вами урона<n/>+<d ref="Behavior,Difficulty5,Modification.VitalRegenMultiplier[Life]*100"/>% регенерация здоровья противников<n/>+<d ref="Behavior,Difficulty5,Modification.MoveSpeedMultiplier-1*100"/>% скорости передвижения противников</n>+<d ref="Behavior,Difficulty5,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони боссов
+Behavior/Tooltip/Difficulty5Hive=<d ref="Behavior,Difficulty5Hive,Modification.LifeArmorBonus"/> броня и <d ref="Behavior,Difficulty5Hive,Modification.VitalRegenArray[Life]"/> регенерация здоровья улья.
+Behavior/Tooltip/DifficultyCustom=+<d ref="Behavior,DifficultyCustom,Modification.DamageDealtFraction[Melee]*100" precision="2"/>% урона от автоатак противников<n/>+<d ref="Behavior,DifficultyCustom,Modification.DamageDealtFraction[Spell]*100" precision="2"/>% урона от способностей противников<n/>+<d ref="Behavior,DifficultyCustom,Modification.AttackSpeedMultiplier-1*100" precision="2"/>% скорости атаки противников<n/>+<d ref="Behavior,DifficultyCustom,Modification.VitalMaxFractionArray[Life]*100" precision="2"/>% здоровья и щитов противников</n><d ref="Behavior,Difficulty5,DamageResponse.ModifyFraction*100" precision="2"/>% наносимого вами урона<n/>+<d ref="Behavior,DifficultyCustom,Modification.VitalRegenMultiplier[Life]*100"/>% регенерации здоровья противников<n/>+<d ref="Behavior,DifficultyCustom,Modification.MoveSpeedMultiplier-1*100"/>% скорость передвижения противников</n>+<d ref="Behavior,DifficultyCustom,Modification.LifeArmorMultiplier*100-100" precision="2"/>% брони босса
+Behavior/Tooltip/DifficultyCustomHive=<d ref="Behavior,DifficultyCustom2,Modification.LifeArmorBonus"/> брони и <d ref="Behavior,DifficultyCustom2,Modification.VitalRegenArray[Life]"/> регенерации здоровья улья.
 Behavior/Tooltip/Frenzy@Frenzied=Увеличена скорость передвижения <d ref="Behavior,Frienzied,Modification.MoveSpeedMultiplier-1*100"/>% и скорость атаки на <d ref="Behavior,Frienzied,Modification.AttackSpeedMultiplier-1*100"/>% на <d ref="Behavior,Frienzied,Duration"/> секунд.
 Behavior/Tooltip/GlueStream@Buff=Увеличена скорость передвижения.
 Behavior/Tooltip/GlueStream@Debuff=Уменьшена скорость передвижения.
-Behavior/Tooltip/Heal@HoT=Этот воин вылечиться со временем.
-Behavior/Tooltip/HeroBowlerAttribute=Боулер получит за каждый уровень:<n/>+<d ref="Accumulator,HeroBowlerWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroBowlerAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
-Behavior/Tooltip/HeroHydraAttribute=Жало получит за каждый уровень:<n/>+<d ref="Accumulator,HeroHydraWeaponDmgModifier,Amount" precision="2"/> Dmg<n/>+<d ref="(Behavior,HeroHydraAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорость атаки<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.MoveSpeedBonus" precision="3"/> скорость передвижения<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.VitalMaxArray[Life]" precision="3"/> жизни<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
-Behavior/Tooltip/HeroRavagerAttribute=Панцирь получит за каждый уровень:<n/>+<d ref="Accumulator,HeroRavagerWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroRavagerAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.VitalMaxArray[Life]" precision="3"/> жизни<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
-Behavior/Tooltip/HeroRoachAttribute=Плевун будет получать за каждый уровень:<n/>+<d ref="Accumulator,HeroRoachWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroRoachAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
-Behavior/Tooltip/HeroSwarmQueenAttribute=Мать Роя получит за каждый уровень:<n/>+<d ref="Accumulator,HeroSwarmQueenWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroSwarmQueenAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
+Behavior/Tooltip/Heal@HoT=Лечится со временем
+Behavior/Tooltip/HeroBowlerAttribute=Муталиск получает за каждый уровень:<n/>+<d ref="Accumulator,HeroBowlerWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroBowlerAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroBowlerAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
+Behavior/Tooltip/HeroHydraAttribute=Гидралиск получает за каждый уровень:<n/>+<d ref="Accumulator,HeroHydraWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroHydraAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroHydraAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
+Behavior/Tooltip/HeroRavagerAttribute=Разоритель получает за каждый уровень:<n/>+<d ref="Accumulator,HeroRavagerWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroRavagerAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroRavagerAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
+Behavior/Tooltip/HeroRoachAttribute=Таракан получает за каждый уровень:<n/>+<d ref="Accumulator,HeroRoachWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroRoachAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroRoachAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
+Behavior/Tooltip/HeroSwarmQueenAttribute=Королева получает за каждый уровень:<n/>+<d ref="Accumulator,HeroSwarmQueenWeaponDmgModifier,Amount" precision="2"/> урона<n/>+<d ref="(Behavior,HeroSwarmQueenAttribute,Modification.AttackSpeedMultiplier-1)*(100)" precision="3"/>% скорости атаки<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.MoveSpeedBonus" precision="3"/> скорости передвижения<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.VitalMaxArray[Life]" precision="3"/> здоровья<n/>+<d ref="Behavior,HeroSwarmQueenAttribute,Modification.VitalMaxArray[Energy]" precision="3"/> энергии<n/>
 Behavior/Tooltip/InvulnerableOverSpawnLimit=Здания неуязвимы, пока не будет убито достаточно врагов.
-Behavior/Tooltip/RespawnEgg@HiveAura=Когда вы находитесь в безопасной зоне яйца, вы получаете:<n/>+<d ref="Behavior,RespawnEgg@HiveAura,DamageResponse.ModifyFraction-1*(-100)" precision="2"/>% уменьшение урона<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.VitalRegenArray[Life]" precision="2"/> регенерация здоровья<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.VitalRegenArray[Energy]" precision="2"/> регенерация энергии<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.DamageDealtScaled[Ranged]" precision="2"/> урон<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.AttackSpeedMultiplier-1*100" precision="5"/>% скорость атаки<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.TimeScale-1*100" precision="2"/>% верменная шкала(?)<n/>[Можно улучшить с помощью достижений]
-Behavior/Tooltip/Shocked=Вы облизали оголённые провода, поэтому у вас электрический шок, который временами наносит урон и оглушает вас на мгновение.
-Behavior/Tooltip/Silenced=Вам замотали рот скотчем, и вы теперь безмолвны. Вы не можете использовать способности.(?)
-Behavior/Tooltip/Tackle@FriendlyTackle=Выросший урон.
-Behavior/Tooltip/UltimateBeing@UltimateBuff=Даёт +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.DamageDealtUnscaled[Ranged]" precision="2"/> атаки, +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.LifeArmorBonus" precision="2"/> брони и +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.MoveSpeedMultiplier-1*100" precision="2"/>% скорости передвижения.
+Behavior/Tooltip/RespawnEgg@HiveAura=В безопасной зоне вы получаете:<n/>+<d ref="Behavior,RespawnEgg@HiveAura,DamageResponse.ModifyFraction-1*(-100)" precision="2"/>% получаемого урона<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.VitalRegenArray[Life]" precision="2"/> регенерации здоровья<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.VitalRegenArray[Energy]" precision="2"/> регенерации энергии<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.DamageDealtScaled[Ranged]" precision="2"/> наносимого урона<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.AttackSpeedMultiplier-1*100" precision="5"/>% скорости атаки<n/>+<d ref="Behavior,RespawnEgg@HiveAura,Modification.TimeScale-1*100" precision="2"/>% ускорения перезарядки умений(?)<n/>[Улучшается с достижениями]
+Behavior/Tooltip/Shocked=Вас ударило током, и теперь вы иногда получаете урон и оглушаешесь.
+Behavior/Tooltip/Silenced=Вы безмолвны и не можете использовать способности.
+Behavior/Tooltip/Tackle@FriendlyTackle=Увеличенный урон.
+Behavior/Tooltip/UltimateBeing@UltimateBuff=Даёт +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.DamageDealtUnscaled[Ranged]" precision="2"/> наносимого урона, +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.LifeArmorBonus" precision="2"/> брони и +<d ref="Behavior,UltimateBeing@UltimateBuff,Modification.MoveSpeedMultiplier-1*100" precision="2"/>% скорости передвижения.
 Button/Name/AbsorbExplosion=Встречный взрыв
 Button/Name/AcidPit=Кислотная яма
 Button/Name/ArmorUpgrade=Улучшение брони
 Button/Name/AtkSpdUpgrade=Улучшение скорости атаки
 Button/Name/Banemine=Гибельная мина
 Button/Name/Banemine@Explode=Взрыв
-Button/Name/Charge2=Зарядка(?)
+Button/Name/Charge2=Рывок
 Button/Name/ChargeUp=Зарядка(?)
 Button/Name/CorrosiveBurst=Едкий взрыв
 Button/Name/CorrosiveSpikes=Едкие иглы
-Button/Name/CreateLurker=Породить Скрытня
-Button/Name/CreateRunling=Породить Беглинга
+Button/Name/CreateLurker=Породить скрытня
+Button/Name/CreateRunling=Породить гиблинга
 Button/Name/CreepTunnel=Тунель из слизи(?)
-Button/Name/CyberneticLifeBank@CreateLifeBank=Породить Хранилище Жизни
-Button/Name/CyberneticLifeBank@LifeBankRestoreCharge=Восстановить Хранилище Жизни
+Button/Name/CyberneticLifeBank@CreateLifeBank=Породить хранилище жизни
+Button/Name/CyberneticLifeBank@LifeBankRestoreCharge=восстановить хранилище жизни
 Button/Name/CyberneticLifeBank@LifeTransfer=Передать здоровье
 Button/Name/CyberneticLurkerBurrow=Закопаться
 Button/Name/CyberneticLurkerBurrowUp=Выкопаться
-Button/Name/CyberneticLurkerRestoreCharge=Восстановить Скрытня
-Button/Name/CyberneticRunlingRestoreCharge=Восстановить Беглинга
+Button/Name/CyberneticLurkerRestoreCharge=Восстановить скрытня
+Button/Name/CyberneticRunlingRestoreCharge=Восстановить гиблинга
 Button/Name/CyberneticSubmenu=Кибербойцы
 Button/Name/Decoy=Приманка
 Button/Name/DefensiveRoar=Оглушительный рёв
 Button/Name/DmgUpgrade=Улучшение атаки
 Button/Name/EnergyTransfer=Передача энергии
-Button/Name/EnergyTransfer@Cancel=Закончить передачу энергии.
+Button/Name/EnergyTransfer@Cancel=Закончить передачу энергии
 Button/Name/FlyBackHome=Полёт домой
 Button/Name/Focus=Сконцентрироваться
-Button/Name/Focus@Off=Перестать Концентрироваться
-Button/Name/Frenzy@Frenzy=Остервенение
-Button/Name/GlueSpray=Плюнуть клеем
-Button/Name/GlueStream=Плюнуть клеем
+Button/Name/Focus@Off=Перестать концентрироваться
+Button/Name/Frenzy@Frenzy=Ярость
+Button/Name/GlueSpray=Плевок клеем
+Button/Name/GlueStream=Плевок клеем(?)
 Button/Name/HardenedShell=Усиленный панцирь
 Button/Name/Headbutt=Удар головой
 Button/Name/Heal@Heal=Лечить(?)
-Button/Name/JumpingBaneling=Скачущий Гиблинг
+Button/Name/JumpingBaneling=Скачущий гиблинг
 Button/Name/KillStreak=Kill Streak
 Button/Name/PickupScientists=Захватить учёного
-Button/Name/ProtossPartTransition=(?) Прорыть к Меха Рою
+Button/Name/ProtossPartTransition=К меха-рою
 Button/Name/RegenerationUpgrade=Улучшение регенерации
-Button/Name/RespawnEgg=Ибо тебе нечего боятся
+Button/Name/RespawnEgg=Ибо тебе нечего бояться
 Button/Name/RespawnEgg@CarryEgg=Взять яйцо
 Button/Name/RespawnEgg@DropEgg=Положить яйцо
 Button/Name/RespawnEgg@EggSuicide=Уничтожить яйцо
-Button/Name/RespawnEgg@Reviving=Воскрешение
+Button/Name/RespawnEgg@Reviving=Воскресить
 Button/Name/Scrap=Металлолом: 
 Button/Name/SplashRangeUpgrade=Улучшить радиус урона по области
 Button/Name/Tackle=Tackle
-Button/Name/Taunt@Taunt=Взять на слабо
-Button/Name/TerranPartTransition=Перелёт к протоссам
-Button/Name/TheySeeMeRolling=(?)Ну что, покатили потихонечку!
+Button/Name/Taunt@Taunt=Провокация(?)
+Button/Name/TerranPartTransition=К протоссам
+Button/Name/TheySeeMeRolling=Ну что, покатили!(?)
 Button/Name/UltimateBeing=Безграничное создание
-Button/Name/UpgradeCenter=(?)Центр улучшений
+Button/Name/UpgradeCenter=Центр улучшений(?)
 Button/Tooltip/AbsorbExplosion=Полученный урон преобразуется в псионную энергию и накапливается в теле Панциря. После <d ref="Behavior,AbsorbExplosion@DmgResponse,Duration" precision="2"/> секунд вся накопленная энергия вырывается наружу и наносит урон в размере <d ref="(Effect,AbsorbExplosion@Dmg,Amount * (Accumulator,SpellDmgUpgradeCollector,Amount/100+1))*100" precision="2"/>% от полученного урона в радиусе <d ref="Effect,AbsorbExplosion@DmgSearch,AreaArray[0].Radius" precision="2"/>.<n/>Если же урон не был получен, то перезарядка происходит быстрее.<n/>В случае если был получен максимально возможный урон в размере <d ref="Effect,AbsorbExplosion@StoreDamage,ValidateMax"/>, высвобождение энергии происходит немедленно.
 Button/Tooltip/AcidPit=Бросает комок агрессивной концентрированной кислоты и создаёт лужицу, которая остаётся на <d ref="Effect,AcidPit@Persistent,PeriodCount*Effect,AcidPit@Persistent,PeriodicPeriodArray[0]"/> секунд и разъедает всех, кто приблизится. Кислота нанесёт <d ref="$AccumulatedValue:Effect,AcidPit@Dmg,Amount$/Effect,AcidPit@Persistent,PeriodicPeriodArray[0]" precision="2"/> урона в секунду врагам и увеличит урон, который им будет наносится на <d ref="Behavior,AcidPit@Debuff,Modification.DamageTakenFraction[Melee]*100"/>%.
 Button/Tooltip/ArmorUpgrade=Увеличивает броню ваших воинов.
